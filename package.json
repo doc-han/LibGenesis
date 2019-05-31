@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "standard && ./test/test.js "
+    "test": "standard && node ./test/test.js "
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/Doc-Han/LibGen/issues"
   },
-  "homepage": "https://github.com/Doc-Han/LibGen#readme"
+  "homepage": "https://github.com/Doc-Han/LibGen#readme",
+  "dependencies": {
+    "request-promise": "^4.2.4"
+  }
 }
