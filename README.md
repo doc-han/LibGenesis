@@ -1,15 +1,14 @@
-# LibGen
+# LibGenesis
 A wrapup of an API to enable the search of paid books for free through Library Genesis
 This module enables you to search books by name and have an array response of books related to search query
 ## How it works
-1. Require the module
+1. Install and require the package
 ```javascript
-    const libgen = require('libgen-search');
+    const libgen = require('libgenesis');
 ```
-2. Pass your search query
-The function returns a promise, Hence, you are to wait for response as below
+2. Pass your search query. The function returns a promise, Hence, you are to wait for response as below
 ```javascript
-    libgen("book name").then(function(books){
+    libgen("book name here").then(function(books){
         //do something with books
         console.log(books);
     }).catch(function(error){
