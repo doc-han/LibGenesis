@@ -9,7 +9,9 @@ This module enables you to search books by name and have an array response of bo
     const libgen = require('libgenesis');
 ```
 
-2. Pass your search query. The function returns a promise, Hence, you are to wait for response as below
+2. Pass your search query. 
+
+The function returns a promise, Hence, you are to wait for response as below
 
 ```javascript
     libgen("book name here").then(function(books){
@@ -21,7 +23,9 @@ This module enables you to search books by name and have an array response of bo
     })
 ``` 
 
-3. How the returned array of objects look like
+3. Book Download
+
+Just a get request to the link in the returned objects will start the download
 
 ```javascript
     [
@@ -40,10 +44,6 @@ This module enables you to search books by name and have an array response of bo
     ]
 ```
 
-4. How to download book
-
-Just a get request to the download property in the returned json array will do downloading stuff for you.
-
-### If you've been waiting for long for this. [Please star the project on GitHub](git+https://github.com/Doc-Han/LibGen.git)
+### If you've been waiting for long for this. [Please star the project on GitHub](https://github.com/Doc-Han/LibGen.git)
 
 Hence you can do what you want with it. Thank You
