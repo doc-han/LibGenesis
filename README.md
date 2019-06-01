@@ -7,8 +7,7 @@
 ![GitHub](https://img.shields.io/github/license/doc-han/libgen.svg)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/libgenesis.svg?color=orange)
 
-A wrapup of an API to enable the search of paid books for free through Library Genesis
-This module enables you to search books by name and have an array response of books related to search query
+A simple module for getting and downloading paid books or PDF's for free. This module is based on Library Genesis and works by getting books straight from the portal. More features will be integrated soon. 
 ## How it works
 
 1. Install and require the package
@@ -31,9 +30,7 @@ The function returns a promise, Hence, you are to wait for response as below
     })
 ``` 
 
-3. Book Download
-
-Just a get request to the link in the returned objects will start the download
+3. Download books with a simple **GET** request to the download link in the response
 
 ```javascript
     [
