@@ -29,6 +29,7 @@
   "homepage": "https://github.com/Doc-Han/LibGen#readme",
   "dependencies": {
     "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "request-promise": "^4.2.4",
+    "standard": "^6.9.0"
   }
 }

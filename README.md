@@ -1,6 +1,7 @@
 # LibGenesis
 
 [![Build Status](https://travis-ci.com/Doc-Han/LibGen.svg?branch=master)](https://travis-ci.com/Doc-Han/LibGen)
+[![npm version](http://img.shields.io/npm/v/REPO.svg?style=flat)](https://www.npmjs.com/package/libgenesis)
 
 A wrapup of an API to enable the search of paid books for free through Library Genesis
 This module enables you to search books by name and have an array response of books related to search query
