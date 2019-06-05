@@ -34,17 +34,23 @@ The function returns a promise, Hence, you are to wait for response as below
 
 ```javascript
     [
-        {
-            "title":"Handbook of Clinical Drug Data",
-            "author":"Philip Anderson",
-            "md5":"7B2A4D53FDE834E801C26A2BAB7E0240",
-            "download":"http://libgen.io/get.php?md5=7B2A4D53FDE834E801C26A2BAB7E0240"
+        { 
+            title: 'Wild Earth, Wild Soul : a Manual for an Ecstatic Culture',
+            author: 'Bill Pfeiffer, John Perkins',
+            language: 'English',
+            filesize: '1.24MB',
+            extension: 'epub',
+            download: 'http://libgen.io/get.php?md5=f1adae1cbabaae30a375237aa9a452e7',
+            bookImage: 'http://library1.org/covers/2085000/f1adae1cbabaae30a375237aa9a452e7-d.jpg' 
         },
-        {
-            "title":"Handbook of Herbs and Spices",
-            "author":"K V Peter",
-            "md5":"048EA0496DB0444F873139CD705A07AF",
-            "download":"http://libgen.io/get.php?md5=048EA0496DB0444F873139CD705A07AF"
+        { 
+            title: 'How to Model Small Boats',
+            author: 'A.Richard Mansir',
+            language: 'English',
+            filesize: '43.15MB',
+            extension: 'pdf',
+            download: 'http://libgen.io/get.php?md5=fddf0522d8fd2616b2e2e2f9f9297f68',
+            bookImage: 'http://library1.org/covers/2118000/fddf0522d8fd2616b2e2e2f9f9297f68-g.jpg' 
         }
     ]
 ```
