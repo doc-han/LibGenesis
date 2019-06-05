@@ -1,6 +1,6 @@
 {
   "name": "libgenesis",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "An API workaround the library genesis platform to enable query search",
   "main": "./lib/index.js",
   "directories": {
