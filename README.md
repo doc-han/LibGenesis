@@ -35,22 +35,23 @@ The function returns a promise, Hence, you are to wait for response as below
 ```javascript
     [
         { 
-            title: 'Wild Earth, Wild Soul : a Manual for an Ecstatic Culture',
-            author: 'Bill Pfeiffer, John Perkins',
+            id: '2348853',
+            title: 'From Cave Man to Cave Martian: Living in Caves on the Earth, Moon and Mars',
+            author: 'Manfred "Dutch" Von Ehrenfried',
             language: 'English',
-            filesize: '1.24MB',
-            extension: 'epub',
-            download: 'http://libgen.io/get.php?md5=f1adae1cbabaae30a375237aa9a452e7',
-            bookImage: 'http://library1.org/covers/2085000/f1adae1cbabaae30a375237aa9a452e7-d.jpg' 
-        },
-        { 
-            title: 'How to Model Small Boats',
-            author: 'A.Richard Mansir',
-            language: 'English',
-            filesize: '43.15MB',
+            filesize: '13.32MB',
             extension: 'pdf',
-            download: 'http://libgen.io/get.php?md5=fddf0522d8fd2616b2e2e2f9f9297f68',
-            bookImage: 'http://library1.org/covers/2118000/fddf0522d8fd2616b2e2e2f9f9297f68-g.jpg' 
+            download: 'http://download.library1.org/main/2348000/31d6ee634d383579863137448c347b67/Manfred "Dutch" Von Ehrenfried - From Cave Man to Cave Martian: Living in Caves on the Earth, Moon and Mars-Springer Praxis Books (2019).pdf',
+            bookImage: 'http://library1.org/covers/2348000/31d6ee634d383579863137448c347b67-d.jpg' },
+        { 
+            id: '2348854',
+            title: 'From Cave Man to Cave Martian: Living in Caves on the Earth, Moon and Mars',
+            author: 'Manfred "Dutch" Von Ehrenfried',
+            language: 'English',
+            filesize: '74.75MB',
+            extension: 'epub',
+            download: 'http://download.library1.org/main/2348000/b628824068dd80a12773e43e8fd93bac/Manfred "Dutch" Von Ehrenfried - From Cave Man to Cave Martian: Living in Caves on the Earth, Moon and Mars-Springer Praxis Books (2019).epub',
+            bookImage: 'http://library1.org/covers/2348000/b628824068dd80a12773e43e8fd93bac-d.jpg' 
         }
     ]
 ```
