@@ -30,7 +30,8 @@ The function returns a promise, Hence, you are to wait for response as below
     })
 ``` 
 
-3. Download books with a simple **GET** request to the download link in the response
+3. The returned array of objects contains the various fields as in the example below <br>
+A **null** value is returned when no book was found for the search term. And download of books is possible by a simple **GET** request to the link in the donwload property in the response.
 
 ```javascript
     [
