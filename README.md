@@ -30,8 +30,7 @@ The function returns a promise, Hence, you are to wait for response as below
     })
 ``` 
 
-3. The returned array of objects contains the various fields as in the example below <br>
-A **null** value is returned when no book was found for the search term. And download of books is possible by a simple **GET** request to the link in the donwload property in the response.
+3. The returned array of objects contains the various fields as in the example below. A **null** value is returned when no book was found for the search term. The `download` property points to the selected mirror's download page.
 
 ```javascript
     [
@@ -42,8 +41,11 @@ A **null** value is returned when no book was found for the search term. And dow
             language: 'English',
             filesize: '13.32MB',
             extension: 'pdf',
-            download: 'http://download.library1.org/main/2348000/31d6ee634d383579863137448c347b67/Manfred "Dutch" Von Ehrenfried - From Cave Man to Cave Martian: Living in Caves on the Earth, Moon and Mars-Springer Praxis Books (2019).pdf',
-            bookImage: 'http://library1.org/covers/2348000/31d6ee634d383579863137448c347b67-d.jpg' },
+            download: 'https://libgen.li/ads.php?md5=31d6ee634d383579863137448c347b67',
+            bookImage: null,
+            publisher: 'Springer Praxis Books',
+            year: '2019',
+            pages: '321' },
         { 
             id: '2348854',
             title: 'From Cave Man to Cave Martian: Living in Caves on the Earth, Moon and Mars',
@@ -51,11 +53,18 @@ A **null** value is returned when no book was found for the search term. And dow
             language: 'English',
             filesize: '74.75MB',
             extension: 'epub',
-            download: 'http://download.library1.org/main/2348000/b628824068dd80a12773e43e8fd93bac/Manfred "Dutch" Von Ehrenfried - From Cave Man to Cave Martian: Living in Caves on the Earth, Moon and Mars-Springer Praxis Books (2019).epub',
-            bookImage: 'http://library1.org/covers/2348000/b628824068dd80a12773e43e8fd93bac-d.jpg' 
+            download: 'https://libgen.li/ads.php?md5=b628824068dd80a12773e43e8fd93bac',
+            bookImage: null,
+            publisher: 'Springer Praxis Books',
+            year: '2019',
+            pages: '321'
         }
     ]
 ```
+
+## Testing
+
+Run the deterministic test suite with `npm test`. To also verify the currently configured live mirrors, run `npm run test:live -- "book title"`.
 
 ### If you've been waiting for long for this. [Please star the project on GitHub](https://github.com/Doc-Han/LibGen.git)
 
